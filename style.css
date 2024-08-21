@@ -1,0 +1,23 @@
+ 
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    height: 15vw;
+    width: 50%;
+    margin-top: 10vw;
+    background: radial-gradient(circle at center, rgb(88, 132, 187), rgb(119, 151, 164), rgb(101, 140, 177));
+}
+.smallbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vw;
+    gap: 4vw;
+}
